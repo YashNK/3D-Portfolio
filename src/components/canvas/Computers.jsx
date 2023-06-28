@@ -15,7 +15,7 @@ const Computers = ({ isMobile }) => {
         position={isMobile ? [60, 40, 4] : [9, 20, 20]}
         angle={0.12}
         penumbra={1}
-        intensity={100}
+        intensity={80}
         castShadow
         shadow-mapSize={1024}
       />
@@ -23,7 +23,7 @@ const Computers = ({ isMobile }) => {
       <primitive
         object={computer.scene}
         scale={isMobile ? 0.7 : 0.75}
-        position={isMobile ? [3, -2, -3] : [0, -1, -0.3]}
+        position={isMobile ? [3, -2.4, -3] : [0, -1, -0.3]}
         rotation={[-0.01, -0.2, -0.1]}
       />
     </mesh>
@@ -62,7 +62,7 @@ const ComputersCanvas = () => {
           enableZoom={false}
           enableRotate={true}
           maxPolarAngle={Math.PI / 2}
-      
+          minPolarAngle={Math.PI / 3}
         />
         <Computers isMobile={isMobile} />
       </Suspense>
