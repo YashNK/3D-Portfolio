@@ -6,29 +6,29 @@ export const Text = () => {
         <div className="text-animation">
             <span>
             <Typewriter
-            options={{loop : true,}}
+            options={{loop : true,delay:25, }}
             onInit={(typewriter) => {
                 typewriter
                 .typeString("Front-End Developer.")
-                .pauseFor(1000)
+                .pauseFor(1500)
                 .deleteAll()
                 .typeString("3D/2D Animator.")
-                .pauseFor(1000)
+                .pauseFor(1500)
                 .deleteAll()
                 .typeString("Content Creator.")
-                .pauseFor(1000)
+                .pauseFor(1500)
                 .deleteAll()
                 .typeString("React Developer.")
-                .pauseFor(1000)
+                .pauseFor(1500)
                 .deleteAll()
                 .typeString("Game Developer.")
-                .pauseFor(1000)
+                .pauseFor(1500)
                 .deleteAll()
                 .typeString("Graphics Designer.")
-                .pauseFor(1000)
+                .pauseFor(1500)
                 .deleteAll()
                 .typeString("VFX Artist")
-                .pauseFor(1000)
+                .pauseFor(1500)
                 .deleteAll()
                 .start();
             }}
