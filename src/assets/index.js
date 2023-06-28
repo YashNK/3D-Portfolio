@@ -20,17 +20,27 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-
+import yklogo from "./company/yklogo.png";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
-
+import google from "./company/google.png";
+import xplrlogo from "./company/logo4.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import blender from "./tech/blender.png";
+import canva from "./tech/canva.png";
+import davinci from "./tech/davinci.png";
 
 export {
+  davinci,
+  canva,
+  blender,
+  xplrlogo,
+  google,
+  yklogo,
   logo,
   backend,
   creator,

@@ -24,6 +24,12 @@ export const Text = () => {
                 .typeString("Game Developer.")
                 .pauseFor(1000)
                 .deleteAll()
+                .typeString("Graphics Designer.")
+                .pauseFor(1000)
+                .deleteAll()
+                .typeString("VFX Artist")
+                .pauseFor(1000)
+                .deleteAll()
                 .start();
             }}
         />

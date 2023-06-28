@@ -1,5 +1,7 @@
 
 import {
+    google,
+    yklogo,
     mobile,
     backend,
     creator,
@@ -24,6 +26,10 @@ import {
     jobit,
     tripguide,
     threejs,
+    xplrlogo,
+    canva,
+    davinci,
+    blender,
   } from "../assets";
   
   export const navLinks = [
@@ -66,6 +72,10 @@ import {
   
   const technologies = [
     {
+      name: "Blender",
+      icon: blender,
+    },
+    {
       name: "HTML 5",
       icon: html,
     },
@@ -85,10 +95,7 @@ import {
       name: "React JS",
       icon: reactjs,
     },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
+    
     {
       name: "Tailwind CSS",
       icon: tailwind,
@@ -110,66 +117,66 @@ import {
       icon: git,
     },
     {
-      name: "figma",
+      name: "Figma",
       icon: figma,
     },
     {
-      name: "docker",
-      icon: docker,
+      name: "Canva",
+      icon: canva,
     },
+    {
+      name: "Davinci Resolve",
+      icon: davinci,
+    },
+   
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Graphics Designer",
+      company_name: "Freelance",
+      icon: yklogo,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "June 2017 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Over the years, I have had the privilege of collaborating with various companies, creating stunning visual posters that not only capture attention but also deliver the intended message effectively.","Through the use of my proficient skills in software such as Photoshop, Canva, Figma, and Krita, I have been able to consistently produce exceptional designs that leave a lasting impact.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "3D Animator",
+      company_name: "Own Project | Sci-fi Logs",
+      icon: yklogo,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "Nov 2020 - Aug 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Worked as a 3D Animator in my very own project Sci-fi Logs. A series that i created using Blender over the course of 2 years.",
+        "I handled every aspect of the project, including animation, direction, video editing, sound design, and promotion, showcasing my diverse skill set and dedication to bringing my vision to life.",
+        "Used Blender, a 3D animation software, I meticulously crafted detailed character models, animated scenes frame by frame, and created a visually stunning and lifelike experience for the audience."
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
+      title: "Design lead",
+      company_name: "GDSC MEC",
+      icon: google,
+      iconBg: "#383E56",
+      date: "Nov 2021 - Aug 2023",
+      points: [
+        "Worked as the Design Lead of my college's Google Developer Student Clubs. ",
+        "Created multiple posters for our GDSC Events. Also lead our GDSC Design Team towards creating Astonishing Posters.",
+        "Conducted Events hosted by our Google Developer Students Club as a Core Member.",
+      ],
+    },
+    
+    {
+      title: "Front-end Developer",
+      company_name: "Xplr",
+      icon: xplrlogo,
+      iconBg: "#383E56",
       date: "Jan 2023 - Present",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Worked as a Front-End Developer for a project called XPLR.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
   ];

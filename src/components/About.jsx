@@ -37,13 +37,13 @@ const About = () => {
     <motion.p variants={fadeIn("", "", 0.1, 1)}
     className='mt-4 text-secondary text-[17px] max-w-3x1 leading-[30px]'
     >
-    Highly skilled Front End Developer with expertise in JavaScript, C, HTML, and CSS.
-    Skilled in creating immersive user experiences through animation using both 2D and 3D techniques.
+    Highly skilled Front End Developer with expertise in React, JavaScript, C, HTML, and CSS.
+    Skilled in creating immersive user experiences through 3D animation techniques.
     Proficient in Blender and Krita for creating visually appealing animations. Extensive experience in video editing, 
     capable of producing high-quality videos. A fast learner with excellent communication skills, 
     able to collaborate effectively with cross-functional teams and deliver client satisfaction.
-
     </motion.p>
+    
 
     <div className='mt-20 flex flex-wrap gap-10'>
       {services.map((service, index) => (
