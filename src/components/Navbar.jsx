@@ -36,15 +36,15 @@ const Navbar = () => {
           ))}
         </ul>
       <div className='sm:hidden flex flex-1 justify-end items-center'>
-        <img src={toggle ? close : menu} alt="menu" className='w-[28px] h-[28px] obect-contain curson-pointer' onClick={() => setToggle(!toggle)} />
-        <div className={`${!toggle ? 'hidden' : 'flex'} p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}>
+        <img src={toggle ? close : menu} alt="menu" className='w-[20px] h-[20px] obect-contain curson-pointer' onClick={() => setToggle(!toggle)} />
+        <div className={`${!toggle ? 'hidden' : 'flex'} p-6 bg-black absolute top-20 right-0 mx-4 my-1 min-w-[100px] z-10 rounded-xl`}>
         <ul className='list-none flex justify-ens items-start flex-col gap-4'>
           {navLinks.map((Link) => (
             <li key={Link.id}
             className={`${active === Link.title
             ? "text-white" 
             : "text-secondary" } 
-            font-poppins tex-[16px] font-medium cursor pointer`}
+            font-poppins text-white text-[16px] font-medium cursor pointer`}
             onClick={() => {setActive(Link.title);
             setToggle(!toggle);}}
             >

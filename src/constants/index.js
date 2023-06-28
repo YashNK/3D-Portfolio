@@ -47,16 +47,20 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "React Developer",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "2D/3D Animator",
       icon: backend,
     },
     {
       title: "Content Creator",
       icon: creator,
+    },
+    {
+      title: "Game Developer",
+      icon: web,
     },
   ];
   
