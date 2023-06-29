@@ -10,16 +10,16 @@ const Room = ({ isMobile }) => {
   return (
     <mesh>
       
-      <hemisphereLight intensity={10} groundColor='black' />
+      <hemisphereLight intensity={1} groundColor='black' />
       <spotLight
-        color={"white"}
+        color={"blue"}
         position={isMobile ? [50, 20, 1] : [20, 20, 20]}
         penumbra={2.1}
-        intensity={40}
+        intensity={10}
         angle={17}
         
       />
-      <pointLight color={"violet"} intensity={30} />
+      <pointLight color={"blue"} intensity={10} />
       <primitive
       penumbra={5}
       
@@ -61,7 +61,7 @@ const RoomCanvas = () => {
     >
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls
-          autoRotate
+          
           autoRotateSpeed={1}
           enableZoom={false}
           enableRotate={true}

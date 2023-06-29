@@ -34,10 +34,10 @@ import blender from "./tech/blender.png";
 import canva from "./tech/canva.png";
 import davinci from "./tech/davinci.png";
 import xplrpage  from "./XplrPage.jpg";
-import langimage  from "./videoBg.mp4";
+
 
 export {
-  langimage,
+ 
   xplrpage,
   davinci,
   canva,
