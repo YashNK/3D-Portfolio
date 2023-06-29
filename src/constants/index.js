@@ -1,5 +1,6 @@
 
 import {
+    xplrpage,
     google,
     yklogo,
     mobile,
@@ -209,69 +210,29 @@ import {
   ];
   
   const projects = [
+
     {
-      name: "Car Rent",
+      name: "XPLR",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web application that enables users to go on self-guided trips. Allows tourists to travel with a safer experience and avoid any mishaps during their journey. Also gives recommendations to the user on which places in trivandrum and worth visiting and places which are close to the users current location. ",
       tags: [
         {
-          name: "react",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
-          color: "green-text-gradient",
+          name: "Mongodb",
+          color: "blue-text-gradient",
         },
         {
           name: "tailwind",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: carrent,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Job IT",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
-        {
-          name: "react",
           color: "blue-text-gradient",
         },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: xplrpage,
+      source_code_link: "https://github.com/Shaky-Sahil/Miniproject",
+      xplr_page_link: "https://my-first-app-ys7z.onrender.com/",
     },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
-    },
-  ];
+  ]
   
   export { services, technologies, experiences, testimonials, projects };

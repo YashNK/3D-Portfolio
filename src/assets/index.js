@@ -33,8 +33,10 @@ import tripguide from "./tripguide.png";
 import blender from "./tech/blender.png";
 import canva from "./tech/canva.png";
 import davinci from "./tech/davinci.png";
+import xplrpage  from "./XplrPage.jpg";
 
 export {
+  xplrpage,
   davinci,
   canva,
   blender,
