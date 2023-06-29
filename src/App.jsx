@@ -1,7 +1,7 @@
 import React from 'react'
 import { BrowserRouter } from 'react-router-dom'
-import {About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas } from "./components"
-
+import {About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, Languages ,StarsCanvas} from "./components"
+import { langimage } from "./assets";
 
 const App = () => {
 
@@ -9,15 +9,20 @@ const App = () => {
     <>
       <BrowserRouter>
         <div className="relative z-0 bg-primary">
-          <div className="bg-hero-pattern bg-cover bg-contain bg-center">
-            <Navbar />
+          <Navbar />
+          <div className="bg-hero-pattern relative z-0 bg-cover bg-contain bg-center">
+            <StarsCanvas />
             <Hero />
           </div>
           <About />
           <Experience />
           {/* <Tech /> */}
+          <div className="relative z-0">
+          <Languages />
+          <StarsCanvas />
+          </div>
           <Works />
-          <Feedbacks />
+          {/* <Feedbacks /> */}
           <div className="relative z-0">
             <Contact />
             <StarsCanvas />
