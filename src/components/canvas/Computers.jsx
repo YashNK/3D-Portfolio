@@ -9,7 +9,7 @@ const Computers = ({ isMobile }) => {
 
   return (
     <mesh>
-      <hemisphereLight intensity={0.15} groundColor='black' />
+      <hemisphereLight intensity={0} groundColor='black' />
       <spotLight
         color={"blue"}
         position={isMobile ? [60, 40, 4] : [9, 20, 20]}
@@ -59,7 +59,7 @@ const ComputersCanvas = () => {
     >
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls
-          
+         
           autoRotateSpeed={1}
           enableZoom={false}
           enableRotate={true}
