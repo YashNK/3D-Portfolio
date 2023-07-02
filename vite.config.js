@@ -10,11 +10,11 @@ export default defineConfig({
         enabled: true
       },
       injectRegister:'auto',
-      includeAssets: ['/public/logo.png', 'logo192.png', 'logo.svg'],
+      includeAssets: ['favicon.ico', 'logo192.png', 'logo.svg'],
       manifest: {
-        name: 'My Awesome App',
-        short_name: 'MyApp',
-        description: 'My Awesome App description',
+        name: 'Yash Kamnani | Portfolio',
+        short_name: 'Portfolio',
+        description: 'My Portfolio',
         theme_color: '#ffffff',
         icons: [
           {

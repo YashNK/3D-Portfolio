@@ -8,8 +8,9 @@ import Works from './Works';
 import Feedbacks from './Feedbacks';
 import Contact from './Contact';
 import Languages from './Languages';
-
+import Links from './Links';
 export {
+  Links,
   Languages,
   Hero,
   Navbar,

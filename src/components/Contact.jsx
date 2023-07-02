@@ -86,7 +86,8 @@ const Contact = () => {
             type='submit'
             className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
           >
-            <a href={`mailto:yashkamni0@gmail.com?subject='Hello from ${form.name}'&body=${form.message}`}>Submit</a>
+            <a href={`mailto:yashkamni0@gmail.com?subject='Hello from ${form.name}'&body=${form.message}`}>{loading ? "Sending..." : "Send"}</a>
+            
           </button>
         </form>
       </motion.div>

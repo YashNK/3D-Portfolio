@@ -1,5 +1,6 @@
 
 import {
+    instagram,
     xplrpage,
     google,
     yklogo,
@@ -238,5 +239,12 @@ import {
       xplr_page_link: "https://my-first-app-ys7z.onrender.com/",
     },
   ]
+
+  const PageLinks = [
+    {
+    image: instagram,
+    instalink: "https://www.instagram.com/_chanandler.b.o.n.g_/",
+    }
+  ]
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, testimonials, projects, PageLinks };
