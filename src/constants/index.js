@@ -1,5 +1,7 @@
 
 import {
+    NightVibePage,
+    NightVibe,
     instagram,
     xplrpage,
     google,
@@ -234,9 +236,33 @@ import {
           color: "blue-text-gradient",
         },
       ],
+      Page_Logo: xplrlogo,
       image: xplrpage,
       source_code_link: "https://github.com/Shaky-Sahil/Miniproject",
       xplr_page_link: "https://my-first-app-ys7z.onrender.com/",
+    },
+    {
+      name: "NIGHT V!BE",
+      description:
+        "Web application that provides a collection of songs, carefully selected, A range of minimal yet extraordinary tracks that have been proven to uplift spirits and promote emotional healing. With a user-friendly interface and seamless navigation through our playlist. This App allows users to navigate to parts of the song, adjust the volume of the music, and also displays  the lyrics of the current music playing.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Framer Motion",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "blue-text-gradient",
+        },
+      ],
+      Page_Logo: NightVibe,
+      image: NightVibePage,
+      source_code_link: "https://github.com/YashNK/Music-Player",
+      xplr_page_link: "https://night-v-be.onrender.com/",
     },
   ]
 

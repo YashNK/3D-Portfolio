@@ -35,8 +35,12 @@ import canva from "./tech/canva.png";
 import davinci from "./tech/davinci.png";
 import xplrpage  from "./XplrPage.jpg";
 import instagram from "./instagram.png"
+import NightVibe from "./NightVibe.png"
+import NightVibePage from './NightVibePage.jpg'
 
 export {
+  NightVibePage,
+  NightVibe,
   instagram,
   xplrpage,
   davinci,

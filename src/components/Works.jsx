@@ -8,7 +8,7 @@ import { projects } from '../constants'
 import { fadeIn, textVariant } from '../utils/motion'
 import { xplrpage } from '../assets'
 
-const ProjectCard = ({index, name, description, tags, image, source_code_link, xplr_page_link}) => {
+const ProjectCard = ({index, name, description, tags, image, source_code_link, xplr_page_link, Page_Logo}) => {
   return(
     <motion.div variants={fadeIn("up","spring", index * 0.5, 0.75)}>
       <Tilt options={{
@@ -32,7 +32,7 @@ const ProjectCard = ({index, name, description, tags, image, source_code_link, x
 
             <div onClick={() => window.open(xplr_page_link, "-blank")}
             className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'>
-              <img src={xplrlogo} 
+              <img src={Page_Logo} 
               alt="github"
               className='w-6 h-6 object-contain'
               /></div>
